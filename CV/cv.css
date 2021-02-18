@@ -1,0 +1,49 @@
+.name {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.container1 {
+    text-align: center;
+    border: 3px black solid;
+    background-image: url("dragon.png");
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+.container {
+background-color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+border-top: black solid;
+margin: 70px;
+padding: 50px;
+display: flex;
+flex-direction: column;
+width: 1000px;
+height: 600px;
+
+}
+body{
+    background-color: #ddd9d9;
+}
+
+footer{
+    text-align: center;
+}
+
+.zozor{
+    width: 800px;
+    height: 400px;
+}
+.formulaire{
+    width: 800px;
+    height: 400px;
+}
